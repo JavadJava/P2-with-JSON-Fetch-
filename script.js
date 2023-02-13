@@ -1,8 +1,6 @@
 let response = await fetch('./pokemons.json')
 let data = await response.json();
-console.log(data);
 let pokeCon = document.querySelector(".pokeCon")
-console.log(data[2]);
 data.forEach(function(pokemon){
    let pokeDiv = document.createElement("div")
        pokeDiv.style.position = "relative"
