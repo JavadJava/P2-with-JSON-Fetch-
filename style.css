@@ -21,9 +21,33 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color:pink;
     left: 10%;  
     top: 20vh;  
+}
+.pokeCon>div{
+    position: relative;
+    width: 20%;
+    height: 200px;
+    border: 1px black solid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.pokeCon>div>img{
+    position: relative;
+    width: 20%;
+    left: 45%;
+    top: 4vh;
+}
+.pokeCon>div>h4{
+    position: relative;
+    width: 40%;
+    left: 30%;
+    text-align: center;
+    top: 80px;
+}
+.pokeCon>div>p{
+
 }
 .green{
     background-color: green;
